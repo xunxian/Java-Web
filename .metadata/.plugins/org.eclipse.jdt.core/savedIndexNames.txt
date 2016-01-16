@@ -12,7 +12,6 @@ INDEX VERSION 1.127+E:\¹¤³ÌÄ¿Â¼\java ee\.metadata\.plugins\org.eclipse.jdt.core
 4046006505.index
 4176430099.index
 2230862310.index
-1657330681.index
 1920761442.index
 371374680.index
 3623117902.index
