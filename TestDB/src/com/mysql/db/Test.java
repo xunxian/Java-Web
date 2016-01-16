@@ -1,0 +1,34 @@
+package com.mysql.db;
+
+import java.sql.*;
+
+public class Test {
+	private static Connection conn = null;
+	private static PreparedStatement pstmt = null;
+	private static ResultSet rs=null;
+	private static final String DRIVER="com.mysql.jdbc.Driver";
+	private static final String URL="jdbc:mysql://localhost:3306/test";
+	private static final String USERNAME="root";
+	private static final String PASSWORD="123";
+	public static void main(String[] args) {
+		try {
+			Class.forName(DRIVER);
+			try {
+				conn=DriverManager.getConnection(URL,USERNAME,PASSWORD);
+				pstmt=conn.prepareStatement("select username,password,sex from user");
+				rs=pstmt.executeQuery();
+				while(rs.next()){
+					System.out.println(rs.getString(2));
+				}
+			} catch (SQLException e) {
+				// TODO Auto-generated catch block
+				e.printStackTrace();
+			}
+		} catch (ClassNotFoundException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		
+	}
+
+}
