@@ -1,0 +1,14 @@
+package com.org.conn;
+
+import java.sql.Connection;
+import java.sql.PreparedStatement;
+
+public class DBTest {
+	private Connection conn=null;
+	private PreparedStatement pstmt=null;
+	private ResultSet rs=null;
+	public static void main(String[] args) {
+		
+	}
+
+}
