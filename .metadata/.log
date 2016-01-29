@@ -11996,3 +11996,6 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:669)
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:608)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1515)
+
+!ENTRY org.eclipse.ui 4 4 2016-01-29 23:15:28.055
+!MESSAGE Referenced part does not exist yet: org.eclipse.ui.views.ProblemView.
