@@ -1,0 +1,30 @@
+package com.example.main;
+
+import com.example.db.SQLiteDB;
+import com.example.sqlitedb.R;
+
+import android.app.Activity;
+import android.database.sqlite.SQLiteDatabase;
+import android.os.Bundle;
+import android.view.Menu;
+import android.widget.Button;
+
+public class MainActivity extends Activity {
+	private SQLiteDatabase db;
+	@Override
+	protected void onCreate(Bundle savedInstanceState) {
+		super.onCreate(savedInstanceState);
+		setContentView(R.layout.activity_main);
+		SQLiteDB dbHelper=new SQLiteDB(MainActivity.this);
+		db=dbHelper.getWritableDatabase();
+		Button insertBtn=(Button) findViewById(R.id.db_insert);
+	}
+
+	@Override
+	public boolean onCreateOptionsMenu(Menu menu) {
+		// Inflate the menu; this adds items to the action bar if it is present.
+		getMenuInflater().inflate(R.menu.main, menu);
+		return true;
+	}
+
+}
