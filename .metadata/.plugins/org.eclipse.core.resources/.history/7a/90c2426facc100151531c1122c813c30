@@ -1,0 +1,13 @@
+package com.mes.face;
+import 
+public class Sockets{
+	Socket s=new Socket("www.baidu.com",22);
+}
+public class Socket {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

@@ -5,4 +5,13 @@
 <fullyQualifiedTypeName name="java.sql.DriverManager"/>
 <fullyQualifiedTypeName name="javax.swing.JOptionPane"/>
 <fullyQualifiedTypeName name="java.sql.PreparedStatement"/>
+<fullyQualifiedTypeName name="com.mes.face.Socket"/>
+<fullyQualifiedTypeName name="android.database.sqlite.SQLiteOpenHelper"/>
+<fullyQualifiedTypeName name="android.widget.Toast"/>
+<fullyQualifiedTypeName name="android.widget.Button"/>
+<fullyQualifiedTypeName name="com.example.myfirstapp.R.id"/>
+<fullyQualifiedTypeName name="com.example.myfirstapp.dbutil.MySQLiteOpenHelper"/>
+<fullyQualifiedTypeName name="com.example.myfirstapp.MainActivity"/>
+<fullyQualifiedTypeName name="android.accounts.OnAccountsUpdateListener"/>
+<fullyQualifiedTypeName name="android.view.View.OnClickListener"/>
 </qualifiedTypeNameHistroy>

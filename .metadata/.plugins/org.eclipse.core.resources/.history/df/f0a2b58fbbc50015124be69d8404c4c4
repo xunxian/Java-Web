@@ -1,0 +1,29 @@
+package com.example.myfirstapp.dbutil;
+
+import android.content.Context;
+import android.database.sqlite.SQLiteDatabase;
+import android.database.sqlite.SQLiteDatabase.CursorFactory;
+import android.database.sqlite.SQLiteOpenHelper;
+
+public class MySQLiteOpenHelper extends SQLiteOpenHelper {
+	private static final String CREATE_USER = "create table User(id Integer primary key autoincrement,"
+			+ " username text,"
+			+ " password text)";
+	private Context context;
+	public MySQLiteOpenHelper(Context context, String name, CursorFactory factory, int version) {
+		super(context, name, factory, version);
+		this.context=context;
+	}
+
+	@Override
+	public void onCreate(SQLiteDatabase db) {
+		db.execSQL(CREATE_USER);
+	}
+
+	@Override
+	public void onUpgrade(SQLiteDatabase arg0, int arg1, int arg2) {
+		// TODO Auto-generated method stub
+
+	}
+
+}
