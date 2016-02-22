@@ -1,6 +1,0 @@
-package com.example.SystemUtil;
-
-public class SQLiteDBConfig {
-	private static final String DBNAME="test.db";
-	private static final int VERSION=1;
-}

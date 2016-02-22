@@ -1,0 +1,40 @@
+package cn.incast.hibernate.main;
+
+import java.text.SimpleDateFormat;
+import java.util.Date;
+import org.hibernate.Session;
+import org.hibernate.SessionFactory;
+import org.hibernate.Transaction;
+import org.hibernate.cfg.Configuration;
+import org.hibernate.service.ServiceRegistry;
+import org.hibernate.service.ServiceRegistryBuilder;
+
+import cn.incast.hibernate.domain.User;
+
+public class Main {
+
+	public static void main(String[] args) {
+		/**
+		 * 初始化配置文件
+		 */
+		Configuration cfg = new Configuration();
+		cfg.configure();
+		ServiceRegistry sr = new ServiceRegistryBuilder().applySettings(cfg.getProperties()).buildServiceRegistry();
+		SessionFactory sf = cfg.buildSessionFactory(sr);
+		Session session = sf.openSession();
+		Transaction tx = session.beginTransaction();
+		User user = new User();
+		user.setUsername("root1234");
+		user.setPassword("fsh,,8023..lllll");
+		String dateStr = "2010-10-11 10:00:02";
+		SimpleDateFormat format = new SimpleDateFormat("yyyy-MM-dd");
+		Date birthday = format.parse(dateStr);
+		user.setBirthday(new Date());
+		session.save(user);
+		tx.commit();
+		session.close();
+		sf.close();
+		System.out.println("end");
+	}
+
+}

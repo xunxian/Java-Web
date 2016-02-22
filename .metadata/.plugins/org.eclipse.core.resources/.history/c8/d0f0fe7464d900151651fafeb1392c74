@@ -1,0 +1,6 @@
+package cn.incast.hibernate.domain;
+
+public class User {
+	private String username;
+	private String password;
+}

@@ -1,0 +1,32 @@
+package cn.incast.hibernate.main;
+
+import org.hibernate.Session;
+import org.hibernate.SessionFactory;
+import org.hibernate.Transaction;
+import org.hibernate.cfg.Configuration;
+
+import cn.incast.hibernate.domain.User;
+
+public class Main {
+
+	@SuppressWarnings("deprecation")
+	public static void main(String[] args) {
+		/**
+		 * 初始化配置文件
+		 */
+		Configuration cfg = new Configuration();
+		cfg.configure();
+		SessionFactory sf=cfg.buildSessionFactory();
+		Session session=sf.openSession();
+		Transaction tx=session.beginTransaction();
+		User user =new User();
+		user.setId(10);
+		user.setUsername("root1234");
+		user.setPassword("fsh,,8023..lllll");
+		session.save(user);
+		txs.commit();
+		session.close();
+		System.out.println("end");
+	}
+
+}

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Extracts string &apos;请输入用户名&apos; into R.string.input_username" description="Extracts string &apos;请输入用户名&apos; into R.string.input_username" file="/LastLove/res/layout/activity_main.xml" flags="6" id="com.android.ide.eclipse.adt.refactoring.extract.string" mode="EDIT_SOURCE" proj="/LastLove" rplc-all-java="false" rplc-all-xml="false" sel-end="1159" sel-start="1139" stamp="1454760413913" tok-esc="请输入用户名" xml-attr-name="android:hint"/>
+</session>
