@@ -1,0 +1,15 @@
+package com.maxf.activity;
+
+import com.maxf.main.BaseActivity;
+import com.maxf.main.R;
+
+import android.os.Bundle;
+
+public class ThirdActivity extends BaseActivity {
+	@Override
+	protected void onCreate(Bundle savedInstanceState) {
+		// TODO Auto-generated method stub
+		super.onCreate(savedInstanceState);
+		setContentView(R.layout.third_layout);
+	}
+}

@@ -1,0 +1,8 @@
+package com.maxf.activity;
+
+public class Snippet {
+	public static void main(String[] args) {
+		BaseActivity
+	}
+}
+

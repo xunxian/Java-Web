@@ -1,0 +1,7 @@
+package com.maxf.activity;
+
+import com.maxf.main.BaseActivity;
+
+public class SecondActivity extends BaseActivity{
+
+}
