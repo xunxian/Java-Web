@@ -1,0 +1,9 @@
+package com.maxf.myutil;
+
+import android.app.Activity;
+
+public class ActivityCollects {
+	public static void addActivity(Activity activity){
+		
+	}
+}

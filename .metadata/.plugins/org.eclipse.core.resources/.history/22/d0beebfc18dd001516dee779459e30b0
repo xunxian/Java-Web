@@ -1,0 +1,7 @@
+package com.maxf.myutil;
+
+public class ActivityCollects {
+	public static void addActivity(Activity activity){
+		
+	}
+}
