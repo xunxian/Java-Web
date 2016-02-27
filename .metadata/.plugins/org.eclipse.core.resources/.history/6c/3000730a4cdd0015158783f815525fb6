@@ -1,0 +1,5 @@
+package com.maxf.model;
+
+public class User {
+
+}
