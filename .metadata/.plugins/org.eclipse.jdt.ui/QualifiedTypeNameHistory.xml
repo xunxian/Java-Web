@@ -21,7 +21,6 @@
 <fullyQualifiedTypeName name="com.example.sqlitedb.R.dimen"/>
 <fullyQualifiedTypeName name="com.example.main.MainActivity"/>
 <fullyQualifiedTypeName name="android.database.Cursor"/>
-<fullyQualifiedTypeName name="java.util.List"/>
 <fullyQualifiedTypeName name="java.util.ArrayList"/>
 <fullyQualifiedTypeName name="javafx.animation.Interpolator"/>
 <fullyQualifiedTypeName name="java.util.Iterator"/>
@@ -41,11 +40,8 @@
 <fullyQualifiedTypeName name="java.io.BufferedReader"/>
 <fullyQualifiedTypeName name="java.io.InputStreamReader"/>
 <fullyQualifiedTypeName name="com.example.networktest.R.id"/>
-<fullyQualifiedTypeName name="android.util.Log"/>
 <fullyQualifiedTypeName name="android.widget.Toast"/>
-<fullyQualifiedTypeName name="com.maxf.myutil.ActivityCollects"/>
 <fullyQualifiedTypeName name="android.view.View.OnClickListener"/>
-<fullyQualifiedTypeName name="com.maxf.main.R.id"/>
 <fullyQualifiedTypeName name="com.maxf.main.MainActivity"/>
 <fullyQualifiedTypeName name="com.maxf.activity.SecondActivity"/>
 <fullyQualifiedTypeName name="com.maxf.activity.ThirdActivity"/>
@@ -53,4 +49,12 @@
 <fullyQualifiedTypeName name="android.R.layout"/>
 <fullyQualifiedTypeName name="com.maxf.main.R"/>
 <fullyQualifiedTypeName name="com.maxf.main.R.layout"/>
+<fullyQualifiedTypeName name="java.util.List"/>
+<fullyQualifiedTypeName name="com.maxf.model.User"/>
+<fullyQualifiedTypeName name="android.widget.TextView"/>
+<fullyQualifiedTypeName name="com.maxf.main.R.id"/>
+<fullyQualifiedTypeName name="android.content.Intent"/>
+<fullyQualifiedTypeName name="android.os.Bundle"/>
+<fullyQualifiedTypeName name="android.util.Log"/>
+<fullyQualifiedTypeName name="com.maxf.myutil.ActivityCollects"/>
 </qualifiedTypeNameHistroy>
